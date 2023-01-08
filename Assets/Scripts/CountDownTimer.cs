@@ -16,6 +16,7 @@ public class CountDownTimer : MonoBehaviour
         Debug.Log(_scene.name);
     }
 
+    // Start is called before the first frame update
     void Start()
     {
         StartCoroutine(CountDownStart());
@@ -28,6 +29,8 @@ public class CountDownTimer : MonoBehaviour
             countDownTime = 3;
             CharacterController.gameOver = false;
             SceneManager.LoadScene(_scene.name);
+            //StartCoroutine(CountDownStart());
+            
         }
     }
     

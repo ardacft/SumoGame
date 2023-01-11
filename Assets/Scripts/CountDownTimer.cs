@@ -23,10 +23,11 @@ public class CountDownTimer : MonoBehaviour
 
     void Update()
     {
-        if (CharacterController.gameOver)
+        if (Controller.gameOver)
         {
             countDownTime = 3;
-            CharacterController.gameOver = false;
+            SpawnManager.enemyNumber = 0;
+            Controller.gameOver = false;
             SceneManager.LoadScene(_scene.name);
         }
     }

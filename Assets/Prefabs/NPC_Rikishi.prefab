@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 8601041775895529387}
   - component: {fileID: 8601041775895529382}
   - component: {fileID: 8601041775895529381}
-  - component: {fileID: 8601041775895529380}
   m_Layer: 0
   m_Name: Arms
   m_TagString: Untagged
@@ -84,19 +83,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &8601041775895529380
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8601041775895529386}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8601041776065594777
 GameObject:
   m_ObjectHideFlags: 0
@@ -110,7 +96,7 @@ GameObject:
   - component: {fileID: 8601041776065594772}
   - component: {fileID: 8601041776065594779}
   - component: {fileID: 8601041776065594778}
-  - component: {fileID: 820961835}
+  - component: {fileID: -5621288691064703633}
   m_Layer: 0
   m_Name: NPC_Rikishi
   m_TagString: Enemy
@@ -191,7 +177,7 @@ CapsuleCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8601041776065594777}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: e99a9efd6f26041b8a8a2ecf4c44c4a1, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   m_Radius: 0.5
@@ -214,7 +200,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
---- !u!114 &820961835
+--- !u!114 &-5621288691064703633
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -223,6 +209,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8601041776065594777}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4004c084d06ec4791bb88d85487a30a2, type: 3}
+  m_Script: {fileID: 11500000, guid: 3c952d1fd67514540b8f34e557f42dd2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 0.05

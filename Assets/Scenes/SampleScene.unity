@@ -835,6 +835,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PC_Rikishi
       objectReference: {fileID: 0}
+    - target: {fileID: 80515811795371570, guid: 8443e6a7606de4cf181a712fd8a2c2e2, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 3045749578944341818, guid: 8443e6a7606de4cf181a712fd8a2c2e2, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -878,14 +882,6 @@ PrefabInstance:
     - target: {fileID: 3045749578944341818, guid: 8443e6a7606de4cf181a712fd8a2c2e2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3988332677907030821, guid: 8443e6a7606de4cf181a712fd8a2c2e2, type: 3}
-      propertyPath: m_Mass
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6549818157867864731, guid: 8443e6a7606de4cf181a712fd8a2c2e2, type: 3}
-      propertyPath: speed
-      value: 0.1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8443e6a7606de4cf181a712fd8a2c2e2, type: 3}

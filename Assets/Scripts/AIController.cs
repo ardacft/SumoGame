@@ -7,7 +7,7 @@ public class AIController : MonoBehaviour
 
     private bool onCollision = false;
     private int onCollisionTimer = 25;
-    public float speed = 0.05f;
+    private float speed = 0.1f;
     private Vector3 lookDirection;
     private Rigidbody opponentRigidbody;
     private GameObject player;
@@ -40,7 +40,6 @@ public class AIController : MonoBehaviour
             {
                 lookDirection = player.transform.position;
                 lookDirection = new Vector3(lookDirection.x, player.transform.position.y, lookDirection.z);
-                lookDirection = lookDirection.normalized;
                 transform.LookAt(lookDirection);
             }   
         }

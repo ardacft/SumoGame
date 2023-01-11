@@ -69,8 +69,10 @@ public class Controller : MonoBehaviour
     {
         if (other.gameObject.tag == "OutPlatform")
         {
+            
+            gameOver = true;
             Destroy(gameObject);
-            SpawnManager.enemyNumber--;
+            
         }       
     }
     

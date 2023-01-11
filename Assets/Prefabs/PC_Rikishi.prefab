@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 6549818157867864731}
   m_Layer: 0
   m_Name: PC_Rikishi
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -129,7 +129,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a85215ea9eaae4800be9979e58f6f7cc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
   layer: 7
 --- !u!1 &3050700647425871425
 GameObject:

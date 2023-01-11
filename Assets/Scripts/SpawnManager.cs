@@ -12,7 +12,7 @@ public class SpawnManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (enemyNumber < 3)
+        if (enemyNumber < 1)
         {
             Instantiate(enemy, new Vector3(Random.Range(-spawnPosition, spawnPosition), 3.1f, Random.Range(-spawnPosition, spawnPosition)), enemy.transform.rotation);
             enemyNumber++;
